@@ -1,13 +1,14 @@
-import React from "react"
+import React from "react";
+import Sidebar from "@/app/(panel)/dashboard/_components/sidebar";
 
-function DashboardLayout(children: {
+type DashboardLayoutProps = {
     children: React.ReactNode;
-}) {
-    return(
-        <>
-            {children}
-        </>
-    )
-}
+};
 
-export default DashboardLayout;
+export default function DashboardLayout({ children }: DashboardLayoutProps) {
+    return (
+        <Sidebar>
+            {children}
+        </Sidebar>
+    );
+}
