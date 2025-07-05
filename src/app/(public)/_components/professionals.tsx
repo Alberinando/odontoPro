@@ -36,7 +36,7 @@ function Professionals(){
                                             Rua x, Centro, Campo Grande - MS
                                         </p>
                                     </div>
-                                    <div className="w-2.5 h-2.5 roudend-full bg-emerald-500" />
+                                    <div className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
                                 </div>
                                 <Link
                                     href="#"
